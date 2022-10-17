@@ -18,6 +18,11 @@ img {
     align-self: center;
 }
 
+.gif {
+    width: 35vh;
+    height: 35vh;
+}
+
 .navbar {
     display: flex;
 }
