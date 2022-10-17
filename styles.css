@@ -1,0 +1,39 @@
+* {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.text {
+    color: lime;
+    font-size: 200px;
+    line-height: 0px;
+}
+
+.text2 {
+    color: yellow;
+    font-size: 200px;
+    line-height: 0px;
+}
+
+img {
+    align-self: center;
+}
+
+.navbar {
+    display: flex;
+}
+
+.page1-con {
+    background-color: hotpink;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page2-con {
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
