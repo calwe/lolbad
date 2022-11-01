@@ -1,44 +1,44 @@
 * {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Satisfy", cursive;
 }
 
-.text {
-    color: lime;
-    font-size: 9vw;
-    line-height: 0px;
-}
-
-.text2 {
-    color: yellow;
-    font-size: 9vw;
-    line-height: 0px;
-}
-
-img {
-    align-self: center;
-}
-
-.gif {
-    width: 35vh;
-    height: 35vh;
-}
-
-.navbar {
-    display: flex;
-}
-
-.page1-con {
-    background-color: hotpink;
-    height: 100vh;
+body {
+    background-color: #323232;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-.page2-con {
-    background-color: aqua;
-    height: 100vh;
+.titlebar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+h1 {
+    color: #eeeeee;
+    font-size: 72px;
+}
+
+p {
+    color: #eeeeee;
+    font-size: 24px;
+}
+
+a {
+    color: #eeeeee;
+    font-size: 30px;
+}
+
+.learn_more_btn {
+    border: 2px solid #eeeeee;
+    border-radius: 20px;
+    width: 200px;
+    height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px;
 }
